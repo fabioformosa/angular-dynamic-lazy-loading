@@ -7,12 +7,13 @@ import {HelloComponent} from "./hello.component";
 
 @NgModule({
   declarations: [
-    AppComponent, HelloComponent, GoodbyeComponent
+    AppComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
+  entryComponents: [HelloComponent, GoodbyeComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
